@@ -1,0 +1,11 @@
+//Temperature in Kelvin
+const kelvin = 277;
+
+//Subtracting 273 degrees from kelvin to get celsius
+const celsius = kelvin - 273;
+
+//Calculating Fahrenheit from celsius and rounding the number
+const fahrenheit = Math.floor(celsius*(9/5) + 32);
+
+//Logging the Temperature in Fahrenheit
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
